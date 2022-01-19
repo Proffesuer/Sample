@@ -1,0 +1,265 @@
+/* CSS Document */
+
+body{
+background-color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+ background:url("pru_pic/prucopy.jpg")no-repeat;
+ background-attachment: fixed;
+
+}
+.navbar{
+position:fixed;
+display:block;
+transition:top 0.4s;
+background-color:#FF3300;
+width:100%;
+
+height:45px;
+overflow-x: hidden;
+
+}
+a{
+text-decoration:none;
+}
+
+.navbar a{
+float:left;
+display:block;
+color:#FFFFFF;
+text-align:center;
+padding:14px;
+text-decoration:none;
+font-size:15px;
+}
+.navbar a:hover{
+background-color:#000000;
+color:#FFFFFF;
+}
+#prutable{
+background-color:#FFFFFF;
+opacity:.8;
+
+}
+#prufooter{
+
+    background-color:whitesmoke;
+
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:black;
+    height:150px;
+    border-radius: 10px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color:#f5f5f5;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+    opacity:.8;
+  }
+  
+  .facebook {
+    background: #3B5998;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+  }
+  
+  .google {
+    background: #ff6347;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    
+  }
+  
+
+
+
+
+
+  #myNav{
+      background-image:url("pru_pic/prudence in kenya.jpg");
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+.lable{
+  margin-left: 200px;
+  color:ivory;
+}
+
+  input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size-adjust: inherit;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left:200px;
+    margin-right:200px;
+    opacity:.8;
+  }
+  .lable{
+    text-align:center;
+  }
+  input[type=submit] {
+    background-color:tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 500px;
+  }
+  
+  input[type=submit]:hover {
+    background-color:grey;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-image:url('pru_pic/prudence\ in\ kenya.jpg');
+    
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+.About{
+
+text-align: center;
+background-color:black;
+opacity:.8;
+margin-left: 150px;
+margin-right:150px;
+color:white;
+padding-top: 10px;
+
+
+
+
+
+}
+
+
+
+
+
+.flip-box {
+  background-color: maroon;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+margin-left: 400px;
+margin-bottom: 30px;
+opacity:.8;
+
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+ 
